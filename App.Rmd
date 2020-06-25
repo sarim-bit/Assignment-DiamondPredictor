@@ -1,0 +1,37 @@
+---
+title: "Diamond Price Predictor"
+author: "Sarim"
+date: "25/06/2020"
+output: ioslides_presentation
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## App Development
+- This app was developed in RStudio using Shiny.
+- The *diamonds* dataset was used.
+- *ggplot2* and *dplyr* libraries were used.
+
+## App Info
+- Diamond Price depends on different parameters.
+- The parameters used for price prediction are **carats**, **cut**, **color**, and **clarity**
+- This app asks the user to input all the information they have and then predicts the price.
+- The more information given the better is the prediction.
+
+## The diamond dataset
+
+```{r, echo = TRUE}
+library(ggplot2)
+head(diamonds)
+```
+
+## Project Information
+- The App is available at 
+https://sarim-bit.shinyapps.io/DiamondPricePredictor/
+- All the project files can be viewed at
+https://github.com/sarim-bit/Assignment-DiamondPredictor
+
+
+
